@@ -3,8 +3,10 @@ import React from 'react'
 
 export default function explore() {
   return (
-    <View>
-      <Text>explore</Text>
+    <View style={{
+      paddingTop: 40
+    }}>
+      <Text style={{fontSize: 40, fontFamily:'grotesk-bold'}}>explore</Text>
     </View>
   );
 }

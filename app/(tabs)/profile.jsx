@@ -3,8 +3,10 @@ import React from 'react'
 
 export default function profile() {
   return (
-    <View>
-      <Text>profile</Text>
+    <View style={{
+      paddingTop: 40
+    }}>
+      <Text style={{fontSize: 40, fontFamily:'grotesk-bold'}}>profile</Text>
     </View>
   )
 }
