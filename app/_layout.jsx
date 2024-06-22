@@ -22,7 +22,7 @@ export default function RootLayout(){
           </Stack>
       </SignedIn>
       <SignedOut>
-        <Text style={{fontSize: 30}}>LoginScreen</Text>
+        <Text style={{fontSize: 30}}><LoginScreen/></Text>
       </SignedOut>
       
     </ClerkProvider>
